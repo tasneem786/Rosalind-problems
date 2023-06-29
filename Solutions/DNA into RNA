@@ -1,0 +1,8 @@
+DNA = input("Enter the DNA sequence: ")
+RNA = " "
+for n in DNA:
+    if n == "T":
+        RNA += "U"
+    else:
+        RNA += n
+print ( RNA )
