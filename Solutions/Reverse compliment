@@ -1,0 +1,18 @@
+data = input( "enter the data: ")
+g=0
+c=0
+a=0
+t=0
+for n in data:
+    if n == "G":
+        g+=1
+    if n== "C":
+        c+=1
+    if n== "A":
+        a+=1
+    if n== "T":
+        t+=1
+total = a+t+g+c
+GC = g+c
+gc = (GC/total)*100
+print(gc)
