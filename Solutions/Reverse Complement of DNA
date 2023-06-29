@@ -1,0 +1,13 @@
+DNA = input("Enter the DNA sequence: ")
+comp = " "
+for n in DNA:
+    if n == "A" :
+        comp += "T"
+    if n == "T" :
+        comp += "A"
+    if n == "G" :
+        comp += "C"
+    if n == "C" :
+        comp += "G"
+rev_comp = comp[::-1]
+print (rev_comp)
